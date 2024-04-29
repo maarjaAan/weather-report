@@ -32,16 +32,23 @@
             Paris
         </h1>
         <p class="weather-details">
-            Tuesday 16:45, scatterd clouds
+            <div class="weather-day"  id="weather-day">
+                Tuesday 16:45
+            </div>
+            <div class="weather-description">
+                scatterd clouds
+            </div>
             <br/>
-            💦 Humidity:<strong>66%</strong> 
+            💦 Humidity:<strong><span class="weather-humidity">66</span></strong> 
             <br/>
-            ༄ Wind:<strong>4.34km/h</strong>
+            ༄ Wind:<strong><span class="weather-wind">4.34</span></strong>
         </p>
     </div>
     <div  class="weather-temeprature-container">
-        <div class="temperature-icon">😎</div>
-        <div class="temperature">12</div>
+        <div id="icon"></div>
+        <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+            class="weather-icon"/>
+        <div class="temperature" id="temp">12</div>
         <div class="temperature-unit">°C</div>
         </div>
     
