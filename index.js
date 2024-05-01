@@ -31,7 +31,7 @@ function searchCity(city) {
   let searchFormElement = document.querySelector("#search-form");
   searchFormElement.addEventListener("submit", handleSearchSubmit);
   
-  searchCity("Paris");
+
 
   let now=new Date;
   let date=now.getDate();
@@ -39,6 +39,9 @@ function searchCity(city) {
   let day=days[now.getDay()];
   let hours=now.getHours();
   let minutes=now.getMinutes();
-let weatherDate=document.querySelector("#weather-day");
-weatherDate.innerHTML=`${day} ${hours}:${minutes}`;
+  let weatherDate=document.querySelector("#weather-day");
+  weatherDate.innerHTML=`${day} ${hours}:${minutes}`;
+
+searchCity("Tallinn");
+
 
