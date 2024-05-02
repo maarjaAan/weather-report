@@ -31,12 +31,15 @@ header{
 }
 .search-form-button{
     background-color: aquamarine;
-   
     border:none;
     border-radius: 6px;
     width: 20%;
     font-size:16px;
     padding:15px 20px;
+}
+.search-form-butto:hover{
+    cursor: pointer;
+   
 }
 .weather-city{
     margin: 0;
@@ -73,7 +76,7 @@ header{
     margin-top: 16px;
     font-size: 28px;
   }
-  
+
   .weather-forecast {
     margin-top: 20px;
     display: flex;
@@ -93,7 +96,8 @@ header{
 }
 
 .weather-forecast-icon {
-  font-size: 45px;
+  width: 60px;
+  height: 60px;
 }
 
 .weather-forecast-temperature {
@@ -103,11 +107,7 @@ header{
     opacity: 0.6;
 }
 
-
-
- 
-  
-  footer{
+footer{
     text-align: center;
     font-size: 15px;
     color:rgb(0,0,0,0.6);
